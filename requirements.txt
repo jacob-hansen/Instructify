@@ -1,0 +1,11 @@
+torch==2.4.0 # don't know why, but fixes issues with vllm
+vllm
+sam2
+datasets
+easyocr
+kaggle
+nltk
+inflect
+
+# Helpful for develpment
+jupyter
