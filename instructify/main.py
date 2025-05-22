@@ -1,5 +1,4 @@
 import os
-os.environ["INSTRUCTIFY_CACHE"] = "/dccstor/mm-instruct1/jacobspace/instructify/instructify/data"
 assert 'INSTRUCTIFY_CACHE' in os.environ, "INSTRUCTIFY_CACHE environment variable must be set with the path to the cache directory"
 
 import shutil
